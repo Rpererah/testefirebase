@@ -13,13 +13,13 @@ import {
 
 
 const firebaseConfig = {
-  apiKey:API_KEY,
-  authDomain: AUTH_DOMAIN,
-  projectId: PROJECT_ID,
-  storageBucket: STORAGE_BUCKET,
-  messagingSenderId: MESSAGING_SENDER_ID,
-  appId: APP_ID,
-  measurementId: MEASUREMENT_ID
+  apiKey:'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  authDomain: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  projectId: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  storageBucket: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  messagingSenderId: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  appId: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM',
+  measurementId: 'AIzaSyASgttdSFfZK9lXioSdGpNNBZ-ZIxIb0JM'
 };
 
 // Initialize Firebase

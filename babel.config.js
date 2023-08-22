@@ -6,7 +6,7 @@ module.exports = function(api) {
       ["module:react-native-dotenv", {
         "envName": "APP_ENV",
         "moduleName": "@env",
-        "path": ".env",
+        "path": "./src/.env",
         "blocklist": null,
         "allowlist": null,
         "blacklist": null, // DEPRECATED

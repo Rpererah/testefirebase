@@ -5,6 +5,7 @@ import Produto from '../../componentes/Produtos';
 import estilos from './estilos';
 
 export default function Principal({ navigation }) {
+  
 
   return (
     <View style={estilos.container}>

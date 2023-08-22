@@ -1,4 +1,4 @@
-import { AuthErrorCodes, createUserWithEmailAndPassword } from "firebase/auth";
+import { AuthErrorCodes, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../config/firebase";
 
 function erroFirebase(error) {
@@ -33,3 +33,18 @@ export async function cadastrar(email, senha) {
         });
         return resultado;
 }
+
+export async function logar(email, senha) {
+    const resultado = await signInWithEmailAndPassword(auth, email, senha)
+         .then((dadosDoUsuario) => {
+             console.log(dadosDoUsuario);
+             return "Sucesso";
+         })
+         .catch((error) => {
+             console.log(error);
+            // return erroFirebase(error);
+            return 'erro'
+ 
+         });
+         return resultado;
+ }
